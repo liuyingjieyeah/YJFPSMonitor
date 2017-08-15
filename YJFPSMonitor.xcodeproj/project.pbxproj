@@ -13,6 +13,8 @@
 		8D0232891F42947E0032C4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0232871F42947E0032C4AA /* Main.storyboard */; };
 		8D02328B1F42947E0032C4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D02328A1F42947E0032C4AA /* Assets.xcassets */; };
 		8D02328E1F42947E0032C4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D02328C1F42947E0032C4AA /* LaunchScreen.storyboard */; };
+		8D02329A1F42948C0032C4AA /* YJFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0232971F42948C0032C4AA /* YJFPSLabel.m */; };
+		8D02329B1F42948C0032C4AA /* YJFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0232991F42948C0032C4AA /* YJFPSMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8D02328A1F42947E0032C4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D02328D1F42947E0032C4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D02328F1F42947E0032C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0232961F42948C0032C4AA /* YJFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFPSLabel.h; sourceTree = "<group>"; };
+		8D0232971F42948C0032C4AA /* YJFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFPSLabel.m; sourceTree = "<group>"; };
+		8D0232981F42948C0032C4AA /* YJFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFPSMonitor.h; sourceTree = "<group>"; };
+		8D0232991F42948C0032C4AA /* YJFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFPSMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		8D02327D1F42947E0032C4AA /* YJFPSMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				8D0232951F42948C0032C4AA /* YJFPSLabel */,
 				8D0232811F42947E0032C4AA /* AppDelegate.h */,
 				8D0232821F42947E0032C4AA /* AppDelegate.m */,
 				8D0232841F42947E0032C4AA /* ViewController.h */,
@@ -77,6 +84,17 @@
 				8D02327F1F42947E0032C4AA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0232951F42948C0032C4AA /* YJFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8D0232961F42948C0032C4AA /* YJFPSLabel.h */,
+				8D0232971F42948C0032C4AA /* YJFPSLabel.m */,
+				8D0232981F42948C0032C4AA /* YJFPSMonitor.h */,
+				8D0232991F42948C0032C4AA /* YJFPSMonitor.m */,
+			);
+			path = YJFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +172,8 @@
 				8D0232861F42947E0032C4AA /* ViewController.m in Sources */,
 				8D0232831F42947E0032C4AA /* AppDelegate.m in Sources */,
 				8D0232801F42947E0032C4AA /* main.m in Sources */,
+				8D02329A1F42948C0032C4AA /* YJFPSLabel.m in Sources */,
+				8D02329B1F42948C0032C4AA /* YJFPSMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
